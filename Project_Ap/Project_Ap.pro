@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     Organization_Page.cpp \
     addpeopleorganization.cpp \
+    changeroleinorganization.cpp \
     create_organization.cpp \
     deletepeoplefromorganization.cpp \
     edit_organization_page.cpp \
@@ -25,6 +26,7 @@ SOURCES += \
 HEADERS += \
     Organization_Page.h \
     addpeopleorganization.h \
+    changeroleinorganization.h \
     create_organization.h \
     deletepeoplefromorganization.h \
     edit_organization_page.h \
@@ -38,6 +40,7 @@ HEADERS += \
 FORMS += \
     Organization_Page.ui \
     addpeopleorganization.ui \
+    changeroleinorganization.ui \
     create_organization.ui \
     deletepeoplefromorganization.ui \
     edit_organization_page.ui \
