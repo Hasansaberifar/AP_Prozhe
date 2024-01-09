@@ -15,6 +15,9 @@ public:
     explicit Team_Page(QWidget *parent = nullptr);
     ~Team_Page();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::Team_Page *ui;
 };

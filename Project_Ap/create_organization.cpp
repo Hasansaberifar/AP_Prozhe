@@ -12,3 +12,9 @@ Create_Organization::~Create_Organization()
 {
     delete ui;
 }
+
+void Create_Organization::on_pushButton_clicked()
+{
+    this->close();
+}
+

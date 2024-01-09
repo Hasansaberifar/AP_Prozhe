@@ -15,6 +15,9 @@ public:
     explicit Create_Organization(QWidget *parent = nullptr);
     ~Create_Organization();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::Create_Organization *ui;
 };

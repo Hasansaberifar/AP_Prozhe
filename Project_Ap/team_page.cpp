@@ -12,3 +12,9 @@ Team_Page::~Team_Page()
 {
     delete ui;
 }
+
+void Team_Page::on_pushButton_clicked()
+{
+    this->close();
+}
+
