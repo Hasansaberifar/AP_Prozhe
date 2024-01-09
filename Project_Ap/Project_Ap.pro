@@ -21,7 +21,8 @@ SOURCES += \
     mainwindow.cpp \
     register_login_page.cpp \
     sign_up.cpp \
-    team_page.cpp
+    team_page.cpp \
+    vieworganization.cpp
 
 HEADERS += \
     Organization_Page.h \
@@ -35,7 +36,8 @@ HEADERS += \
     mainwindow.h \
     register_login_page.h \
     sign_up.h \
-    team_page.h
+    team_page.h \
+    vieworganization.h
 
 FORMS += \
     Organization_Page.ui \
@@ -49,7 +51,8 @@ FORMS += \
     mainwindow.ui \
     register_login_page.ui \
     sign_up.ui \
-    team_page.ui
+    team_page.ui \
+    vieworganization.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -5,7 +5,8 @@
 #include"edit_organization_page.h"
 #include"addpeopleorganization.h"
 #include"deletepeoplefromorganization.h"
-#include "
+#include "changeroleinorganization.h"
+#include"V
 General_page::General_page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::General_page)
@@ -63,6 +64,13 @@ void General_page::on_pushButton_6_clicked()
 
 
 void General_page::on_pushButton_7_clicked()
+{
+    ChangeRoleInOrganization *page=new ChangeRoleInOrganization(this);
+    page->show();
+}
+
+
+void General_page::on_pushButton_9_clicked()
 {
     
 }
