@@ -2,7 +2,7 @@
 #include "ui_Organization_Page.h"
 #include"team_page.h"
 #include"create_organization.h"
-
+#include"edit_organization_page.h"
 General_page::General_page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::General_page)
@@ -36,4 +36,11 @@ void General_page::on_pushButton_2_clicked()
 }
 
 
+
+
+void General_page::on_pushButton_3_clicked()
+{
+    Edit_Organization_page *page=new Edit_Organization_page(this);
+    page->show();
+}
 

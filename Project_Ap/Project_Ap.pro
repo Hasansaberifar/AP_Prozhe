@@ -11,6 +11,7 @@ CONFIG += c++17
 SOURCES += \
     Organization_Page.cpp \
     create_organization.cpp \
+    edit_organization_page.cpp \
     forgetpassword_page.cpp \
     login_page.cpp \
     main.cpp \
@@ -22,6 +23,7 @@ SOURCES += \
 HEADERS += \
     Organization_Page.h \
     create_organization.h \
+    edit_organization_page.h \
     forgetpassword_page.h \
     login_page.h \
     mainwindow.h \
@@ -32,6 +34,7 @@ HEADERS += \
 FORMS += \
     Organization_Page.ui \
     create_organization.ui \
+    edit_organization_page.ui \
     forgetpassword_page.ui \
     login_page.ui \
     mainwindow.ui \
