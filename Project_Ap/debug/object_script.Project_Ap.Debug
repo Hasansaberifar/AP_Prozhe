@@ -1,10 +1,12 @@
 debug/forgetpassword_page.o
+debug/general_page.o
 debug/login_page.o
 debug/main.o
 debug/mainwindow.o
 debug/register_login_page.o
 debug/sign_up.o
 debug/moc_forgetpassword_page.o
+debug/moc_general_page.o
 debug/moc_login_page.o
 debug/moc_mainwindow.o
 debug/moc_register_login_page.o

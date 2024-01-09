@@ -1,10 +1,12 @@
 release/forgetpassword_page.o
+release/general_page.o
 release/login_page.o
 release/main.o
 release/mainwindow.o
 release/register_login_page.o
 release/sign_up.o
 release/moc_forgetpassword_page.o
+release/moc_general_page.o
 release/moc_login_page.o
 release/moc_mainwindow.o
 release/moc_register_login_page.o
