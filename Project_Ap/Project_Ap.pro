@@ -10,7 +10,9 @@ CONFIG += c++17
 
 SOURCES += \
     Organization_Page.cpp \
+    addpeopleorganization.cpp \
     create_organization.cpp \
+    deletepeoplefromorganization.cpp \
     edit_organization_page.cpp \
     forgetpassword_page.cpp \
     login_page.cpp \
@@ -22,7 +24,9 @@ SOURCES += \
 
 HEADERS += \
     Organization_Page.h \
+    addpeopleorganization.h \
     create_organization.h \
+    deletepeoplefromorganization.h \
     edit_organization_page.h \
     forgetpassword_page.h \
     login_page.h \
@@ -33,7 +37,9 @@ HEADERS += \
 
 FORMS += \
     Organization_Page.ui \
+    addpeopleorganization.ui \
     create_organization.ui \
+    deletepeoplefromorganization.ui \
     edit_organization_page.ui \
     forgetpassword_page.ui \
     login_page.ui \
