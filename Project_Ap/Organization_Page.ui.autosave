@@ -52,7 +52,7 @@
      <x>100</x>
      <y>100</y>
      <width>511</width>
-     <height>361</height>
+     <height>331</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout">
@@ -182,21 +182,33 @@
       </property>
      </widget>
     </item>
-    <item row="9" column="0">
-     <widget class="QLabel" name="label_11">
-      <property name="text">
-       <string>Team Management :</string>
-      </property>
-     </widget>
-    </item>
-    <item row="9" column="1">
-     <widget class="QPushButton" name="pushButton_11">
-      <property name="text">
-       <string>Team</string>
-      </property>
-     </widget>
-    </item>
    </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>450</y>
+     <width>191</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Team</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_12">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>450</y>
+     <width>201</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add task</string>
+   </property>
   </widget>
  </widget>
  <resources/>
