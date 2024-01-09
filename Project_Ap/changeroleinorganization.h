@@ -15,6 +15,9 @@ public:
     explicit ChangeRoleInOrganization(QWidget *parent = nullptr);
     ~ChangeRoleInOrganization();
 
+private slots:
+    void on_pushButton_2_clicked();
+
 private:
     Ui::ChangeRoleInOrganization *ui;
 };

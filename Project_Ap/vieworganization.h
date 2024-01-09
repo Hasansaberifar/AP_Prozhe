@@ -15,6 +15,9 @@ public:
     explicit ViewOrganization(QWidget *parent = nullptr);
     ~ViewOrganization();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::ViewOrganization *ui;
 };

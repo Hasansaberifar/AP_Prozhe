@@ -64,10 +64,10 @@
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QLineEdit" name="newTitle"/>
+     <widget class="QLineEdit" name="newTitleForOrgan"/>
     </item>
     <item row="1" column="1">
-     <widget class="QLineEdit" name="NewName"/>
+     <widget class="QLineEdit" name="NewNameForOrgan"/>
     </item>
    </layout>
   </widget>

@@ -3,6 +3,10 @@
 #include"team_page.h"
 #include"create_organization.h"
 #include"edit_organization_page.h"
+#include"addpeopleorganization.h"
+#include"deletepeoplefromorganization.h"
+#include "changeroleinorganization.h"
+#include"vieworganization.h"
 General_page::General_page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::General_page)
@@ -41,6 +45,34 @@ void General_page::on_pushButton_2_clicked()
 void General_page::on_pushButton_3_clicked()
 {
     Edit_Organization_page *page=new Edit_Organization_page(this);
+    page->show();
+}
+
+
+void General_page::on_pushButton_5_clicked()
+{
+    AddPeopleOrganization *page=new AddPeopleOrganization(this);
+    page->show();
+}
+
+
+void General_page::on_pushButton_6_clicked()
+{
+    DeletePeopleFromOrganization *page=new DeletePeopleFromOrganization(this);
+    page->show();
+}
+
+
+void General_page::on_pushButton_7_clicked()
+{
+    ChangeRoleInOrganization *page=new ChangeRoleInOrganization(this);
+    page->show();
+}
+
+
+void General_page::on_pushButton_9_clicked()
+{
+    ViewOrganization *page=new ViewOrganization(this);
     page->show();
 }
 

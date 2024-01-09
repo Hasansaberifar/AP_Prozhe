@@ -170,13 +170,13 @@ public:
         label_3->setText(QCoreApplication::translate("Team_Page", "Create an Team in Organization :", nullptr));
         pushButton_2->setText(QCoreApplication::translate("Team_Page", "Create", nullptr));
         label_4->setText(QCoreApplication::translate("Team_Page", "Add members to the team : ", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("Team_Page", "Edit", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("Team_Page", "Add", nullptr));
         label_5->setText(QCoreApplication::translate("Team_Page", "remove the member : ", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("Team_Page", "Delete Organization", nullptr));
+        pushButton_4->setText(QCoreApplication::translate("Team_Page", "Delete People", nullptr));
         label_6->setText(QCoreApplication::translate("Team_Page", "Edit the Team : ", nullptr));
-        pushButton_5->setText(QCoreApplication::translate("Team_Page", "Add People", nullptr));
+        pushButton_5->setText(QCoreApplication::translate("Team_Page", "Edit", nullptr));
         label_7->setText(QCoreApplication::translate("Team_Page", "remove the team : ", nullptr));
-        pushButton_6->setText(QCoreApplication::translate("Team_Page", "Delete People", nullptr));
+        pushButton_6->setText(QCoreApplication::translate("Team_Page", "Delete team", nullptr));
         label_8->setText(QCoreApplication::translate("Team_Page", "change the role of people in the team : ", nullptr));
         pushButton_7->setText(QCoreApplication::translate("Team_Page", "Change", nullptr));
         label_9->setText(QCoreApplication::translate("Team_Page", "view the teams in an organization : ", nullptr));

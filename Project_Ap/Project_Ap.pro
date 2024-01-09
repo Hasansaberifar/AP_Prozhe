@@ -11,10 +11,15 @@ CONFIG += c++17
 SOURCES += \
     Organization_Page.cpp \
     addpeopleorganization.cpp \
+    addpeopletoteam.cpp \
     changeroleinorganization.cpp \
+    changeroleinteam.cpp \
     create_organization.cpp \
+    createteampage.cpp \
     deletepeoplefromorganization.cpp \
+    deletepeoplefromteam.cpp \
     edit_organization_page.cpp \
+    editteampage.cpp \
     forgetpassword_page.cpp \
     login_page.cpp \
     main.cpp \
@@ -22,37 +27,50 @@ SOURCES += \
     register_login_page.cpp \
     sign_up.cpp \
     team_page.cpp \
-    vieworganization.cpp
+    vieworganization.cpp \
+    viewteams.cpp
 
 HEADERS += \
     Organization_Page.h \
     addpeopleorganization.h \
+    addpeopletoteam.h \
     changeroleinorganization.h \
+    changeroleinteam.h \
     create_organization.h \
+    createteampage.h \
     deletepeoplefromorganization.h \
+    deletepeoplefromteam.h \
     edit_organization_page.h \
+    editteampage.h \
     forgetpassword_page.h \
     login_page.h \
     mainwindow.h \
     register_login_page.h \
     sign_up.h \
     team_page.h \
-    vieworganization.h
+    vieworganization.h \
+    viewteams.h
 
 FORMS += \
     Organization_Page.ui \
     addpeopleorganization.ui \
+    addpeopletoteam.ui \
     changeroleinorganization.ui \
+    changeroleinteam.ui \
     create_organization.ui \
+    createteampage.ui \
     deletepeoplefromorganization.ui \
+    deletepeoplefromteam.ui \
     edit_organization_page.ui \
+    editteampage.ui \
     forgetpassword_page.ui \
     login_page.ui \
     mainwindow.ui \
     register_login_page.ui \
     sign_up.ui \
     team_page.ui \
-    vieworganization.ui
+    vieworganization.ui \
+    viewteams.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

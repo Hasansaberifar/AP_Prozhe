@@ -12,3 +12,9 @@ ViewOrganization::~ViewOrganization()
 {
     delete ui;
 }
+
+void ViewOrganization::on_pushButton_clicked()
+{
+    this->close();
+}
+

@@ -12,3 +12,9 @@ ChangeRoleInOrganization::~ChangeRoleInOrganization()
 {
     delete ui;
 }
+
+void ChangeRoleInOrganization::on_pushButton_2_clicked()
+{
+    this->close();
+}
+

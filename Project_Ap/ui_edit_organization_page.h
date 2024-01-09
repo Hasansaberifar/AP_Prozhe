@@ -29,8 +29,8 @@ public:
     QFormLayout *formLayout;
     QLabel *label_2;
     QLabel *label_3;
-    QLineEdit *newTitle;
-    QLineEdit *NewName;
+    QLineEdit *newTitleForOrgan;
+    QLineEdit *NewNameForOrgan;
     QLabel *label;
 
     void setupUi(QDialog *Edit_Organization_page)
@@ -60,15 +60,15 @@ public:
 
         formLayout->setWidget(1, QFormLayout::LabelRole, label_3);
 
-        newTitle = new QLineEdit(formLayoutWidget);
-        newTitle->setObjectName("newTitle");
+        newTitleForOrgan = new QLineEdit(formLayoutWidget);
+        newTitleForOrgan->setObjectName("newTitleForOrgan");
 
-        formLayout->setWidget(0, QFormLayout::FieldRole, newTitle);
+        formLayout->setWidget(0, QFormLayout::FieldRole, newTitleForOrgan);
 
-        NewName = new QLineEdit(formLayoutWidget);
-        NewName->setObjectName("NewName");
+        NewNameForOrgan = new QLineEdit(formLayoutWidget);
+        NewNameForOrgan->setObjectName("NewNameForOrgan");
 
-        formLayout->setWidget(1, QFormLayout::FieldRole, NewName);
+        formLayout->setWidget(1, QFormLayout::FieldRole, NewNameForOrgan);
 
         label = new QLabel(Edit_Organization_page);
         label->setObjectName("label");

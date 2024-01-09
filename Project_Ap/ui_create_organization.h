@@ -28,7 +28,7 @@ public:
     QFormLayout *formLayout;
     QLabel *label_2;
     QLabel *label_3;
-    QLineEdit *UserForCreateOrgan;
+    QLineEdit *TitleOrganization;
     QLineEdit *OrganizationName;
     QPushButton *pushButton;
     QPushButton *pushButton_2;
@@ -62,10 +62,10 @@ public:
 
         formLayout->setWidget(1, QFormLayout::LabelRole, label_3);
 
-        UserForCreateOrgan = new QLineEdit(formLayoutWidget);
-        UserForCreateOrgan->setObjectName("UserForCreateOrgan");
+        TitleOrganization = new QLineEdit(formLayoutWidget);
+        TitleOrganization->setObjectName("TitleOrganization");
 
-        formLayout->setWidget(0, QFormLayout::FieldRole, UserForCreateOrgan);
+        formLayout->setWidget(0, QFormLayout::FieldRole, TitleOrganization);
 
         OrganizationName = new QLineEdit(formLayoutWidget);
         OrganizationName->setObjectName("OrganizationName");

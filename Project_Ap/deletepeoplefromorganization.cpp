@@ -12,3 +12,9 @@ DeletePeopleFromOrganization::~DeletePeopleFromOrganization()
 {
     delete ui;
 }
+
+void DeletePeopleFromOrganization::on_pushButton_2_clicked()
+{
+    this->close();
+}
+

@@ -15,6 +15,9 @@ public:
     explicit AddPeopleOrganization(QWidget *parent = nullptr);
     ~AddPeopleOrganization();
 
+private slots:
+    void on_pushButton_2_clicked();
+
 private:
     Ui::AddPeopleOrganization *ui;
 };
