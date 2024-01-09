@@ -38,10 +38,11 @@ public:
         pushButton_2->setGeometry(QRect(430, 270, 161, 41));
         label_2 = new QLabel(Register_Login_Page);
         label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(270, 40, 261, 141));
+        label_2->setGeometry(QRect(270, 30, 261, 141));
         QFont font;
-        font.setFamilies({QString::fromUtf8("Segoe Script")});
+        font.setFamilies({QString::fromUtf8("Rockwell Extra Bold")});
         font.setPointSize(25);
+        font.setBold(true);
         label_2->setFont(font);
         pushButton_3 = new QPushButton(Register_Login_Page);
         pushButton_3->setObjectName("pushButton_3");

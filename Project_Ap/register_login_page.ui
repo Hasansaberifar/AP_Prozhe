@@ -43,15 +43,16 @@
    <property name="geometry">
     <rect>
      <x>270</x>
-     <y>40</y>
+     <y>30</y>
      <width>261</width>
      <height>141</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Segoe Script</family>
+     <family>Rockwell Extra Bold</family>
      <pointsize>25</pointsize>
+     <bold>true</bold>
     </font>
    </property>
    <property name="text">

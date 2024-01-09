@@ -12,3 +12,9 @@ Sign_up::~Sign_up()
 {
     delete ui;
 }
+
+void Sign_up::on_pushButton_clicked()
+{
+    this->close();
+}
+
