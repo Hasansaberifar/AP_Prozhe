@@ -28,6 +28,8 @@ private slots:
 
     void on_pushButton_7_clicked();
 
+    void on_pushButton_9_clicked();
+
 private:
     Ui::Team_Page *ui;
 };

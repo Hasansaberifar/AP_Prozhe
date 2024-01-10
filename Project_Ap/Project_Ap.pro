@@ -24,8 +24,10 @@ SOURCES += \
     login_page.cpp \
     main.cpp \
     mainwindow.cpp \
+    project_page.cpp \
     register_login_page.cpp \
     sign_up.cpp \
+    task_page.cpp \
     team_page.cpp \
     vieworganization.cpp \
     viewteams.cpp
@@ -45,8 +47,10 @@ HEADERS += \
     forgetpassword_page.h \
     login_page.h \
     mainwindow.h \
+    project_page.h \
     register_login_page.h \
     sign_up.h \
+    task_page.h \
     team_page.h \
     vieworganization.h \
     viewteams.h
@@ -66,8 +70,10 @@ FORMS += \
     forgetpassword_page.ui \
     login_page.ui \
     mainwindow.ui \
+    project_page.ui \
     register_login_page.ui \
     sign_up.ui \
+    task_page.ui \
     team_page.ui \
     vieworganization.ui \
     viewteams.ui
