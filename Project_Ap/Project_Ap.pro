@@ -16,9 +16,11 @@ SOURCES += \
     changeroleinteam.cpp \
     create_organization.cpp \
     createteampage.cpp \
+    creattask.cpp \
     deletepeoplefromorganization.cpp \
     deletepeoplefromteam.cpp \
     edit_organization_page.cpp \
+    edittask.cpp \
     editteampage.cpp \
     forgetpassword_page.cpp \
     login_page.cpp \
@@ -40,9 +42,11 @@ HEADERS += \
     changeroleinteam.h \
     create_organization.h \
     createteampage.h \
+    creattask.h \
     deletepeoplefromorganization.h \
     deletepeoplefromteam.h \
     edit_organization_page.h \
+    edittask.h \
     editteampage.h \
     forgetpassword_page.h \
     login_page.h \
@@ -63,9 +67,11 @@ FORMS += \
     changeroleinteam.ui \
     create_organization.ui \
     createteampage.ui \
+    creattask.ui \
     deletepeoplefromorganization.ui \
     deletepeoplefromteam.ui \
     edit_organization_page.ui \
+    edittask.ui \
     editteampage.ui \
     forgetpassword_page.ui \
     login_page.ui \
