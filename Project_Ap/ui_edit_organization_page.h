@@ -27,48 +27,72 @@ public:
     QPushButton *pushButton;
     QWidget *formLayoutWidget;
     QFormLayout *formLayout;
-    QLabel *label_2;
-    QLabel *label_3;
     QLineEdit *newTitleForOrgan;
+    QLabel *label_5;
+    QLineEdit *OldNameForOrganization;
+    QLineEdit *OldTitleForOrganization;
     QLineEdit *NewNameForOrgan;
+    QLabel *label_3;
+    QLabel *label_4;
+    QLabel *label_2;
     QLabel *label;
 
     void setupUi(QDialog *Edit_Organization_page)
     {
         if (Edit_Organization_page->objectName().isEmpty())
             Edit_Organization_page->setObjectName("Edit_Organization_page");
-        Edit_Organization_page->resize(681, 272);
+        Edit_Organization_page->resize(681, 300);
         pushButton_2 = new QPushButton(Edit_Organization_page);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(50, 220, 71, 29));
+        pushButton_2->setGeometry(QRect(20, 250, 71, 29));
         pushButton = new QPushButton(Edit_Organization_page);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(520, 170, 83, 29));
+        pushButton->setGeometry(QRect(520, 240, 83, 29));
         formLayoutWidget = new QWidget(Edit_Organization_page);
         formLayoutWidget->setObjectName("formLayoutWidget");
-        formLayoutWidget->setGeometry(QRect(150, 90, 451, 71));
+        formLayoutWidget->setGeometry(QRect(150, 90, 451, 141));
         formLayout = new QFormLayout(formLayoutWidget);
         formLayout->setObjectName("formLayout");
         formLayout->setContentsMargins(0, 0, 0, 0);
-        label_2 = new QLabel(formLayoutWidget);
-        label_2->setObjectName("label_2");
+        newTitleForOrgan = new QLineEdit(formLayoutWidget);
+        newTitleForOrgan->setObjectName("newTitleForOrgan");
 
-        formLayout->setWidget(0, QFormLayout::LabelRole, label_2);
+        formLayout->setWidget(3, QFormLayout::FieldRole, newTitleForOrgan);
+
+        label_5 = new QLabel(formLayoutWidget);
+        label_5->setObjectName("label_5");
+
+        formLayout->setWidget(0, QFormLayout::LabelRole, label_5);
+
+        OldNameForOrganization = new QLineEdit(formLayoutWidget);
+        OldNameForOrganization->setObjectName("OldNameForOrganization");
+
+        formLayout->setWidget(0, QFormLayout::FieldRole, OldNameForOrganization);
+
+        OldTitleForOrganization = new QLineEdit(formLayoutWidget);
+        OldTitleForOrganization->setObjectName("OldTitleForOrganization");
+
+        formLayout->setWidget(2, QFormLayout::FieldRole, OldTitleForOrganization);
+
+        NewNameForOrgan = new QLineEdit(formLayoutWidget);
+        NewNameForOrgan->setObjectName("NewNameForOrgan");
+
+        formLayout->setWidget(1, QFormLayout::FieldRole, NewNameForOrgan);
 
         label_3 = new QLabel(formLayoutWidget);
         label_3->setObjectName("label_3");
 
         formLayout->setWidget(1, QFormLayout::LabelRole, label_3);
 
-        newTitleForOrgan = new QLineEdit(formLayoutWidget);
-        newTitleForOrgan->setObjectName("newTitleForOrgan");
+        label_4 = new QLabel(formLayoutWidget);
+        label_4->setObjectName("label_4");
 
-        formLayout->setWidget(0, QFormLayout::FieldRole, newTitleForOrgan);
+        formLayout->setWidget(2, QFormLayout::LabelRole, label_4);
 
-        NewNameForOrgan = new QLineEdit(formLayoutWidget);
-        NewNameForOrgan->setObjectName("NewNameForOrgan");
+        label_2 = new QLabel(formLayoutWidget);
+        label_2->setObjectName("label_2");
 
-        formLayout->setWidget(1, QFormLayout::FieldRole, NewNameForOrgan);
+        formLayout->setWidget(3, QFormLayout::LabelRole, label_2);
 
         label = new QLabel(Edit_Organization_page);
         label->setObjectName("label");
@@ -89,8 +113,10 @@ public:
         Edit_Organization_page->setWindowTitle(QCoreApplication::translate("Edit_Organization_page", "Dialog", nullptr));
         pushButton_2->setText(QCoreApplication::translate("Edit_Organization_page", "Back", nullptr));
         pushButton->setText(QCoreApplication::translate("Edit_Organization_page", "Edit", nullptr));
-        label_2->setText(QCoreApplication::translate("Edit_Organization_page", "New Title : ", nullptr));
+        label_5->setText(QCoreApplication::translate("Edit_Organization_page", "Old name", nullptr));
         label_3->setText(QCoreApplication::translate("Edit_Organization_page", "New Name : ", nullptr));
+        label_4->setText(QCoreApplication::translate("Edit_Organization_page", "Old Title : ", nullptr));
+        label_2->setText(QCoreApplication::translate("Edit_Organization_page", "New Title : ", nullptr));
         label->setText(QCoreApplication::translate("Edit_Organization_page", "Edit Organization", nullptr));
     } // retranslateUi
 

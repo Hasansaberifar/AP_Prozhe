@@ -44,6 +44,7 @@ public:
     QLabel *label_11;
     QPushButton *pushButton_10;
     QPushButton *pushButton;
+    QPushButton *pushButton_11;
 
     void setupUi(QDialog *Team_Page)
     {
@@ -157,6 +158,9 @@ public:
         pushButton = new QPushButton(Team_Page);
         pushButton->setObjectName("pushButton");
         pushButton->setGeometry(QRect(30, 470, 83, 29));
+        pushButton_11 = new QPushButton(Team_Page);
+        pushButton_11->setObjectName("pushButton_11");
+        pushButton_11->setGeometry(QRect(500, 460, 141, 29));
 
         retranslateUi(Team_Page);
 
@@ -167,7 +171,7 @@ public:
     {
         Team_Page->setWindowTitle(QCoreApplication::translate("Team_Page", "Dialog", nullptr));
         label->setText(QCoreApplication::translate("Team_Page", "Team Management", nullptr));
-        label_3->setText(QCoreApplication::translate("Team_Page", "Create an Team in Organization :", nullptr));
+        label_3->setText(QCoreApplication::translate("Team_Page", "Create a new Team in Organization :", nullptr));
         pushButton_2->setText(QCoreApplication::translate("Team_Page", "Create", nullptr));
         label_4->setText(QCoreApplication::translate("Team_Page", "Add members to the team : ", nullptr));
         pushButton_3->setText(QCoreApplication::translate("Team_Page", "Add", nullptr));
@@ -186,6 +190,7 @@ public:
         label_11->setText(QCoreApplication::translate("Team_Page", "sorting the teams that have joined : ", nullptr));
         pushButton_10->setText(QCoreApplication::translate("Team_Page", "Sort", nullptr));
         pushButton->setText(QCoreApplication::translate("Team_Page", "Back", nullptr));
+        pushButton_11->setText(QCoreApplication::translate("Team_Page", "Add Task", nullptr));
     } // retranslateUi
 
 };

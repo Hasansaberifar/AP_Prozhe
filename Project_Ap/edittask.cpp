@@ -12,3 +12,9 @@ EditTask::~EditTask()
 {
     delete ui;
 }
+
+void EditTask::on_pushButton_2_clicked()
+{
+    this->close();
+}
+

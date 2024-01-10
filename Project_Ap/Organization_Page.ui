@@ -59,7 +59,7 @@
     <item row="0" column="0">
      <widget class="QLabel" name="label_2">
       <property name="text">
-       <string>Create an organization :</string>
+       <string>Create a new organization :</string>
       </property>
      </widget>
     </item>
@@ -200,14 +200,14 @@
   <widget class="QPushButton" name="pushButton_12">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>250</x>
      <y>450</y>
-     <width>201</width>
+     <width>161</width>
      <height>29</height>
     </rect>
    </property>
    <property name="text">
-    <string>Add task</string>
+    <string>Add Project</string>
    </property>
   </widget>
  </widget>

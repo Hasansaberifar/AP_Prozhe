@@ -164,7 +164,7 @@ public:
         pushButton_11->setGeometry(QRect(420, 450, 191, 29));
         pushButton_12 = new QPushButton(General_page);
         pushButton_12->setObjectName("pushButton_12");
-        pushButton_12->setGeometry(QRect(210, 450, 201, 29));
+        pushButton_12->setGeometry(QRect(250, 450, 161, 29));
 
         retranslateUi(General_page);
 
@@ -176,7 +176,7 @@ public:
         General_page->setWindowTitle(QCoreApplication::translate("General_page", "Dialog", nullptr));
         pushButton->setText(QCoreApplication::translate("General_page", "Back", nullptr));
         label->setText(QCoreApplication::translate("General_page", "Organization Management", nullptr));
-        label_2->setText(QCoreApplication::translate("General_page", "Create an organization :", nullptr));
+        label_2->setText(QCoreApplication::translate("General_page", "Create a new organization :", nullptr));
         pushButton_2->setText(QCoreApplication::translate("General_page", "Create", nullptr));
         label_3->setText(QCoreApplication::translate("General_page", "Edit Organization Profile :", nullptr));
         pushButton_3->setText(QCoreApplication::translate("General_page", "Edit", nullptr));
@@ -195,7 +195,7 @@ public:
         label_10->setText(QCoreApplication::translate("General_page", "Sorting Membered Organizations : ", nullptr));
         pushButton_10->setText(QCoreApplication::translate("General_page", "Sort", nullptr));
         pushButton_11->setText(QCoreApplication::translate("General_page", "Add Team", nullptr));
-        pushButton_12->setText(QCoreApplication::translate("General_page", "Add task", nullptr));
+        pushButton_12->setText(QCoreApplication::translate("General_page", "Add Project", nullptr));
     } // retranslateUi
 
 };

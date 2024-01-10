@@ -7,6 +7,7 @@
 #include"deletepeoplefromorganization.h"
 #include "changeroleinorganization.h"
 #include"vieworganization.h"
+#include"project_page.h"
 General_page::General_page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::General_page)
@@ -41,7 +42,6 @@ void General_page::on_pushButton_2_clicked()
 
 
 
-
 void General_page::on_pushButton_3_clicked()
 {
     Edit_Organization_page *page=new Edit_Organization_page(this);
@@ -73,6 +73,13 @@ void General_page::on_pushButton_7_clicked()
 void General_page::on_pushButton_9_clicked()
 {
     ViewOrganization *page=new ViewOrganization(this);
+    page->show();
+}
+
+
+void General_page::on_pushButton_12_clicked()
+{
+    Project_Page *page=new Project_Page(this);
     page->show();
 }
 

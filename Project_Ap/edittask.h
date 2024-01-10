@@ -15,6 +15,9 @@ public:
     explicit EditTask(QWidget *parent = nullptr);
     ~EditTask();
 
+private slots:
+    void on_pushButton_2_clicked();
+
 private:
     Ui::EditTask *ui;
 };

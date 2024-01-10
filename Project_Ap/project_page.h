@@ -15,6 +15,9 @@ public:
     explicit Project_Page(QWidget *parent = nullptr);
     ~Project_Page();
 
+private slots:
+    void on_pushButton_10_clicked();
+
 private:
     Ui::Project_Page *ui;
 };

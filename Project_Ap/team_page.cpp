@@ -6,6 +6,7 @@
 #include"deletepeoplefromorganization.h"
 #include"changeroleinteam.h"
 #include"viewteams.h"
+#include"task_page.h"
 Team_Page::Team_Page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Team_Page)
@@ -62,6 +63,13 @@ void Team_Page::on_pushButton_7_clicked()
 void Team_Page::on_pushButton_9_clicked()
 {
     ViewTeams *page=new ViewTeams(this);
+    page->show();
+}
+
+
+void Team_Page::on_pushButton_11_clicked()
+{
+    Task_Page *page=new Task_Page(this);
     page->show();
 }
 

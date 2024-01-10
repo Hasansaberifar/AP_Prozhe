@@ -12,3 +12,9 @@ Project_Page::~Project_Page()
 {
     delete ui;
 }
+
+void Project_Page::on_pushButton_10_clicked()
+{
+    this->close();
+}
+
