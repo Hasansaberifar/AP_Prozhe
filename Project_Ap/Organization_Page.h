@@ -4,16 +4,16 @@
 #include <QDialog>
 
 namespace Ui {
-class General_page;
+class Organization_Page;
 }
 
-class General_page : public QDialog
+class Organization_Page : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit General_page(QWidget *parent = nullptr);
-    ~General_page();
+    explicit Organization_Page(QWidget *parent = nullptr);
+    ~Organization_Page();
 
 private slots:
     void on_pushButton_clicked();
@@ -35,7 +35,7 @@ private slots:
     void on_pushButton_12_clicked();
 
 private:
-    Ui::General_page *ui;
+    Ui::Organization_Page *ui;
 };
 
 #endif // ORGANIZATION_PAGE_H

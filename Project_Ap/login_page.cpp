@@ -1,6 +1,7 @@
 #include "login_page.h"
 #include "ui_login_page.h"
 #include"forgetpassword_page.h"
+#include"Organization_Page.h"
 Login_Page::Login_Page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Login_Page)
@@ -22,6 +23,16 @@ void Login_Page::on_pushButton_3_clicked()
 void Login_Page::on_pushButton_2_clicked()
 {
     ForgetPassword_page *page=new ForgetPassword_page(this);
+    page->show();
+}
+
+
+
+
+
+void Login_Page::on_pushButton_clicked()
+{
+    Organization_Page *page=new Organization_Page(this);
     page->show();
 }
 

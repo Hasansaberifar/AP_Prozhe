@@ -12,3 +12,9 @@ CreatTask::~CreatTask()
 {
     delete ui;
 }
+
+void CreatTask::on_pushButton_2_clicked()
+{
+    this->close();
+}
+

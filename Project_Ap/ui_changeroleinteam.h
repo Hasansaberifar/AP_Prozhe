@@ -27,6 +27,8 @@ public:
     QFormLayout *formLayout;
     QLabel *label_2;
     QLineEdit *lineEdit;
+    QLabel *label_3;
+    QLineEdit *OldRoleInTeam;
     QPushButton *pushButton;
     QPushButton *pushButton_2;
     QLabel *label;
@@ -38,23 +40,33 @@ public:
         ChangeRoleInTeam->resize(706, 268);
         formLayoutWidget = new QWidget(ChangeRoleInTeam);
         formLayoutWidget->setObjectName("formLayoutWidget");
-        formLayoutWidget->setGeometry(QRect(200, 90, 401, 41));
+        formLayoutWidget->setGeometry(QRect(200, 90, 401, 72));
         formLayout = new QFormLayout(formLayoutWidget);
         formLayout->setObjectName("formLayout");
         formLayout->setContentsMargins(0, 0, 0, 0);
         label_2 = new QLabel(formLayoutWidget);
         label_2->setObjectName("label_2");
 
-        formLayout->setWidget(0, QFormLayout::LabelRole, label_2);
+        formLayout->setWidget(1, QFormLayout::LabelRole, label_2);
 
         lineEdit = new QLineEdit(formLayoutWidget);
         lineEdit->setObjectName("lineEdit");
 
-        formLayout->setWidget(0, QFormLayout::FieldRole, lineEdit);
+        formLayout->setWidget(1, QFormLayout::FieldRole, lineEdit);
+
+        label_3 = new QLabel(formLayoutWidget);
+        label_3->setObjectName("label_3");
+
+        formLayout->setWidget(0, QFormLayout::LabelRole, label_3);
+
+        OldRoleInTeam = new QLineEdit(formLayoutWidget);
+        OldRoleInTeam->setObjectName("OldRoleInTeam");
+
+        formLayout->setWidget(0, QFormLayout::FieldRole, OldRoleInTeam);
 
         pushButton = new QPushButton(ChangeRoleInTeam);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(520, 140, 83, 29));
+        pushButton->setGeometry(QRect(530, 180, 83, 29));
         pushButton_2 = new QPushButton(ChangeRoleInTeam);
         pushButton_2->setObjectName("pushButton_2");
         pushButton_2->setGeometry(QRect(50, 210, 71, 29));
@@ -76,6 +88,7 @@ public:
     {
         ChangeRoleInTeam->setWindowTitle(QCoreApplication::translate("ChangeRoleInTeam", "Dialog", nullptr));
         label_2->setText(QCoreApplication::translate("ChangeRoleInTeam", "New Role : ", nullptr));
+        label_3->setText(QCoreApplication::translate("ChangeRoleInTeam", "Old Role : ", nullptr));
         pushButton->setText(QCoreApplication::translate("ChangeRoleInTeam", "Change", nullptr));
         pushButton_2->setText(QCoreApplication::translate("ChangeRoleInTeam", "Back", nullptr));
         label->setText(QCoreApplication::translate("ChangeRoleInTeam", "Change Role", nullptr));

@@ -36,9 +36,9 @@ QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
 
 #ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSGeneral_pageENDCLASS_t {};
-static constexpr auto qt_meta_stringdata_CLASSGeneral_pageENDCLASS = QtMocHelpers::stringData(
-    "General_page",
+struct qt_meta_stringdata_CLASSOrganization_PageENDCLASS_t {};
+static constexpr auto qt_meta_stringdata_CLASSOrganization_PageENDCLASS = QtMocHelpers::stringData(
+    "Organization_Page",
     "on_pushButton_clicked",
     "",
     "on_pushButton_11_clicked",
@@ -51,9 +51,9 @@ static constexpr auto qt_meta_stringdata_CLASSGeneral_pageENDCLASS = QtMocHelper
     "on_pushButton_12_clicked"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
-struct qt_meta_stringdata_CLASSGeneral_pageENDCLASS_t {
+struct qt_meta_stringdata_CLASSOrganization_PageENDCLASS_t {
     uint offsetsAndSizes[22];
-    char stringdata0[13];
+    char stringdata0[18];
     char stringdata1[22];
     char stringdata2[1];
     char stringdata3[25];
@@ -66,22 +66,22 @@ struct qt_meta_stringdata_CLASSGeneral_pageENDCLASS_t {
     char stringdata10[25];
 };
 #define QT_MOC_LITERAL(ofs, len) \
-    uint(sizeof(qt_meta_stringdata_CLASSGeneral_pageENDCLASS_t::offsetsAndSizes) + ofs), len 
-Q_CONSTINIT static const qt_meta_stringdata_CLASSGeneral_pageENDCLASS_t qt_meta_stringdata_CLASSGeneral_pageENDCLASS = {
+    uint(sizeof(qt_meta_stringdata_CLASSOrganization_PageENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSOrganization_PageENDCLASS_t qt_meta_stringdata_CLASSOrganization_PageENDCLASS = {
     {
-        QT_MOC_LITERAL(0, 12),  // "General_page"
-        QT_MOC_LITERAL(13, 21),  // "on_pushButton_clicked"
-        QT_MOC_LITERAL(35, 0),  // ""
-        QT_MOC_LITERAL(36, 24),  // "on_pushButton_11_clicked"
-        QT_MOC_LITERAL(61, 23),  // "on_pushButton_2_clicked"
-        QT_MOC_LITERAL(85, 23),  // "on_pushButton_3_clicked"
-        QT_MOC_LITERAL(109, 23),  // "on_pushButton_5_clicked"
-        QT_MOC_LITERAL(133, 23),  // "on_pushButton_6_clicked"
-        QT_MOC_LITERAL(157, 23),  // "on_pushButton_7_clicked"
-        QT_MOC_LITERAL(181, 23),  // "on_pushButton_9_clicked"
-        QT_MOC_LITERAL(205, 24)   // "on_pushButton_12_clicked"
+        QT_MOC_LITERAL(0, 17),  // "Organization_Page"
+        QT_MOC_LITERAL(18, 21),  // "on_pushButton_clicked"
+        QT_MOC_LITERAL(40, 0),  // ""
+        QT_MOC_LITERAL(41, 24),  // "on_pushButton_11_clicked"
+        QT_MOC_LITERAL(66, 23),  // "on_pushButton_2_clicked"
+        QT_MOC_LITERAL(90, 23),  // "on_pushButton_3_clicked"
+        QT_MOC_LITERAL(114, 23),  // "on_pushButton_5_clicked"
+        QT_MOC_LITERAL(138, 23),  // "on_pushButton_6_clicked"
+        QT_MOC_LITERAL(162, 23),  // "on_pushButton_7_clicked"
+        QT_MOC_LITERAL(186, 23),  // "on_pushButton_9_clicked"
+        QT_MOC_LITERAL(210, 24)   // "on_pushButton_12_clicked"
     },
-    "General_page",
+    "Organization_Page",
     "on_pushButton_clicked",
     "",
     "on_pushButton_11_clicked",
@@ -97,7 +97,7 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSGeneral_pageENDCLASS_t qt_meta_
 #endif // !QT_MOC_HAS_STRING_DATA
 } // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_CLASSGeneral_pageENDCLASS[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSOrganization_PageENDCLASS[] = {
 
  // content:
       12,       // revision
@@ -135,15 +135,15 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSGeneral_pageENDCLASS[] = {
        0        // eod
 };
 
-Q_CONSTINIT const QMetaObject General_page::staticMetaObject = { {
+Q_CONSTINIT const QMetaObject Organization_Page::staticMetaObject = { {
     QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
-    qt_meta_stringdata_CLASSGeneral_pageENDCLASS.offsetsAndSizes,
-    qt_meta_data_CLASSGeneral_pageENDCLASS,
+    qt_meta_stringdata_CLASSOrganization_PageENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSOrganization_PageENDCLASS,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSGeneral_pageENDCLASS_t,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSOrganization_PageENDCLASS_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<General_page, std::true_type>,
+        QtPrivate::TypeAndForceComplete<Organization_Page, std::true_type>,
         // method 'on_pushButton_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_pushButton_11_clicked'
@@ -166,10 +166,10 @@ Q_CONSTINIT const QMetaObject General_page::staticMetaObject = { {
     nullptr
 } };
 
-void General_page::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void Organization_Page::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<General_page *>(_o);
+        auto *_t = static_cast<Organization_Page *>(_o);
         (void)_t;
         switch (_id) {
         case 0: _t->on_pushButton_clicked(); break;
@@ -187,20 +187,20 @@ void General_page::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
     (void)_a;
 }
 
-const QMetaObject *General_page::metaObject() const
+const QMetaObject *Organization_Page::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *General_page::qt_metacast(const char *_clname)
+void *Organization_Page::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CLASSGeneral_pageENDCLASS.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSOrganization_PageENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QDialog::qt_metacast(_clname);
 }
 
-int General_page::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int Organization_Page::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QDialog::qt_metacall(_c, _id, _a);
     if (_id < 0)

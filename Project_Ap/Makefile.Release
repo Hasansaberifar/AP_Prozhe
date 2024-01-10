@@ -5866,7 +5866,52 @@ release/creattask.o: creattask.cpp creattask.h \
 		C:/Qt/6.6.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.6.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.6.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_creattask.h
+		ui_creattask.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qtsan_impl.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QFormLayout \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qformlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLayout \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\creattask.o creattask.cpp
 
 release/deletepeoplefromorganization.o: deletepeoplefromorganization.cpp deletepeoplefromorganization.h \
@@ -6669,7 +6714,52 @@ release/edittask.o: edittask.cpp edittask.h \
 		C:/Qt/6.6.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.6.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.6.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_edittask.h
+		ui_edittask.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qtsan_impl.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QFormLayout \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qformlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLayout \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLineEdit \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlineedit.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qpen.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\edittask.o edittask.cpp
 
 release/editteampage.o: editteampage.cpp editteampage.h \
@@ -7093,7 +7183,8 @@ release/forgetpassword_page.o: forgetpassword_page.cpp forgetpassword_page.h \
 		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QPushButton \
 		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qpushbutton.h \
 		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QWidget
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QWidget \
+		Organization_Page.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\forgetpassword_page.o forgetpassword_page.cpp
 
 release/login_page.o: login_page.cpp login_page.h \
@@ -7870,7 +7961,46 @@ release/project_page.o: project_page.cpp project_page.h \
 		C:/Qt/6.6.1/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.6.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.6.1/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_project_page.h
+		ui_project_page.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qtsan_impl.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QFormLayout \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qformlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLayout \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\project_page.o project_page.cpp
 
 release/register_login_page.o: register_login_page.cpp register_login_page.h \
@@ -8464,6 +8594,45 @@ release/task_page.o: task_page.cpp task_page.h \
 		C:/Qt/6.6.1/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.6.1/mingw_64/include/QtCore/qnativeinterface.h \
 		ui_task_page.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/QVariant \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QApplication \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qapplication.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qtsan_impl.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qinputmethod.h \
+		C:/Qt/6.6.1/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QFormLayout \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qformlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLayout \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qboxlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qlabel.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.6.1/mingw_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/6.6.1/mingw_64/include/QtWidgets/QWidget \
 		creattask.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\task_page.o task_page.cpp
 

@@ -1,6 +1,7 @@
 #include "task_page.h"
 #include "ui_task_page.h"
 #include"creattask.h"
+#include"edittask.h"
 Task_Page::Task_Page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Task_Page)
@@ -28,7 +29,7 @@ void Task_Page::on_pushButton_2_clicked()
 
 void Task_Page::on_pushButton_3_clicked()
 {
-    Task_Page *page=new Task_Page(this);
+    EditTask *page=new EditTask(this);
     page->show();
 }
 

@@ -12,6 +12,9 @@ SOURCES += \
     Organization_Page.cpp \
     addpeopleorganization.cpp \
     addpeopletoteam.cpp \
+    assignatasktoaperson.cpp \
+    assignatasktoaproject.cpp \
+    assignatasktotheteam.cpp \
     changeroleinorganization.cpp \
     changeroleinteam.cpp \
     create_organization.cpp \
@@ -19,6 +22,7 @@ SOURCES += \
     creattask.cpp \
     deletepeoplefromorganization.cpp \
     deletepeoplefromteam.cpp \
+    deletetask.cpp \
     edit_organization_page.cpp \
     edittask.cpp \
     editteampage.cpp \
@@ -38,6 +42,9 @@ HEADERS += \
     Organization_Page.h \
     addpeopleorganization.h \
     addpeopletoteam.h \
+    assignatasktoaperson.h \
+    assignatasktoaproject.h \
+    assignatasktotheteam.h \
     changeroleinorganization.h \
     changeroleinteam.h \
     create_organization.h \
@@ -45,6 +52,7 @@ HEADERS += \
     creattask.h \
     deletepeoplefromorganization.h \
     deletepeoplefromteam.h \
+    deletetask.h \
     edit_organization_page.h \
     edittask.h \
     editteampage.h \
@@ -63,6 +71,9 @@ FORMS += \
     Organization_Page.ui \
     addpeopleorganization.ui \
     addpeopletoteam.ui \
+    assignatasktoaperson.ui \
+    assignatasktoaproject.ui \
+    assignatasktotheteam.ui \
     changeroleinorganization.ui \
     changeroleinteam.ui \
     create_organization.ui \
@@ -70,6 +81,7 @@ FORMS += \
     creattask.ui \
     deletepeoplefromorganization.ui \
     deletepeoplefromteam.ui \
+    deletetask.ui \
     edit_organization_page.ui \
     edittask.ui \
     editteampage.ui \

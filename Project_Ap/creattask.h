@@ -15,6 +15,9 @@ public:
     explicit CreatTask(QWidget *parent = nullptr);
     ~CreatTask();
 
+private slots:
+    void on_pushButton_2_clicked();
+
 private:
     Ui::CreatTask *ui;
 };

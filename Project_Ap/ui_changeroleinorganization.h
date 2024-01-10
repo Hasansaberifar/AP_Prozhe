@@ -26,6 +26,8 @@ public:
     QLabel *label;
     QWidget *formLayoutWidget;
     QFormLayout *formLayout;
+    QLabel *label_3;
+    QLineEdit *OldRoleInOrganization;
     QLabel *label_2;
     QLineEdit *lineEdit;
     QPushButton *pushButton;
@@ -46,23 +48,33 @@ public:
         label->setFont(font);
         formLayoutWidget = new QWidget(ChangeRoleInOrganization);
         formLayoutWidget->setObjectName("formLayoutWidget");
-        formLayoutWidget->setGeometry(QRect(180, 80, 401, 41));
+        formLayoutWidget->setGeometry(QRect(180, 80, 401, 72));
         formLayout = new QFormLayout(formLayoutWidget);
         formLayout->setObjectName("formLayout");
         formLayout->setContentsMargins(0, 0, 0, 0);
+        label_3 = new QLabel(formLayoutWidget);
+        label_3->setObjectName("label_3");
+
+        formLayout->setWidget(0, QFormLayout::LabelRole, label_3);
+
+        OldRoleInOrganization = new QLineEdit(formLayoutWidget);
+        OldRoleInOrganization->setObjectName("OldRoleInOrganization");
+
+        formLayout->setWidget(0, QFormLayout::FieldRole, OldRoleInOrganization);
+
         label_2 = new QLabel(formLayoutWidget);
         label_2->setObjectName("label_2");
 
-        formLayout->setWidget(0, QFormLayout::LabelRole, label_2);
+        formLayout->setWidget(1, QFormLayout::LabelRole, label_2);
 
         lineEdit = new QLineEdit(formLayoutWidget);
         lineEdit->setObjectName("lineEdit");
 
-        formLayout->setWidget(0, QFormLayout::FieldRole, lineEdit);
+        formLayout->setWidget(1, QFormLayout::FieldRole, lineEdit);
 
         pushButton = new QPushButton(ChangeRoleInOrganization);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(500, 130, 83, 29));
+        pushButton->setGeometry(QRect(500, 160, 83, 29));
         pushButton_2 = new QPushButton(ChangeRoleInOrganization);
         pushButton_2->setObjectName("pushButton_2");
         pushButton_2->setGeometry(QRect(30, 200, 71, 29));
@@ -76,6 +88,7 @@ public:
     {
         ChangeRoleInOrganization->setWindowTitle(QCoreApplication::translate("ChangeRoleInOrganization", "Dialog", nullptr));
         label->setText(QCoreApplication::translate("ChangeRoleInOrganization", "Change Role", nullptr));
+        label_3->setText(QCoreApplication::translate("ChangeRoleInOrganization", "Old Role :", nullptr));
         label_2->setText(QCoreApplication::translate("ChangeRoleInOrganization", "New Role : ", nullptr));
         pushButton->setText(QCoreApplication::translate("ChangeRoleInOrganization", "Change", nullptr));
         pushButton_2->setText(QCoreApplication::translate("ChangeRoleInOrganization", "Back", nullptr));
