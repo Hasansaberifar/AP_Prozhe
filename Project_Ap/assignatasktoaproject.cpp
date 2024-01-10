@@ -12,3 +12,9 @@ AssignATaskToAProject::~AssignATaskToAProject()
 {
     delete ui;
 }
+
+void AssignATaskToAProject::on_pushButton_2_clicked()
+{
+    this->close();
+}
+

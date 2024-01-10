@@ -12,3 +12,9 @@ AssignATaskToAPerson::~AssignATaskToAPerson()
 {
     delete ui;
 }
+
+void AssignATaskToAPerson::on_pushButton_2_clicked()
+{
+    this->close();
+}
+

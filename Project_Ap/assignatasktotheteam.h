@@ -15,6 +15,9 @@ public:
     explicit AssignATaskToTheTeam(QWidget *parent = nullptr);
     ~AssignATaskToTheTeam();
 
+private slots:
+    void on_pushButton_2_clicked();
+
 private:
     Ui::AssignATaskToTheTeam *ui;
 };

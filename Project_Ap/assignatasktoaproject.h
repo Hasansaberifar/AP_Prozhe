@@ -15,6 +15,9 @@ public:
     explicit AssignATaskToAProject(QWidget *parent = nullptr);
     ~AssignATaskToAProject();
 
+private slots:
+    void on_pushButton_2_clicked();
+
 private:
     Ui::AssignATaskToAProject *ui;
 };

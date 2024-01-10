@@ -10,6 +10,7 @@ CONFIG += c++17
 
 SOURCES += \
     Organization_Page.cpp \
+    addmembertoproject.cpp \
     addpeopleorganization.cpp \
     addpeopletoteam.cpp \
     assignatasktoaperson.cpp \
@@ -18,12 +19,15 @@ SOURCES += \
     changeroleinorganization.cpp \
     changeroleinteam.cpp \
     create_organization.cpp \
+    createproject.cpp \
     createteampage.cpp \
     creattask.cpp \
     deletepeoplefromorganization.cpp \
     deletepeoplefromteam.cpp \
+    deleteproject.cpp \
     deletetask.cpp \
     edit_organization_page.cpp \
+    editproject.cpp \
     edittask.cpp \
     editteampage.cpp \
     forgetpassword_page.cpp \
@@ -32,14 +36,17 @@ SOURCES += \
     mainwindow.cpp \
     project_page.cpp \
     register_login_page.cpp \
+    removememberfromproject.cpp \
     sign_up.cpp \
     task_page.cpp \
     team_page.cpp \
+    viewmemberproject.cpp \
     vieworganization.cpp \
     viewteams.cpp
 
 HEADERS += \
     Organization_Page.h \
+    addmembertoproject.h \
     addpeopleorganization.h \
     addpeopletoteam.h \
     assignatasktoaperson.h \
@@ -48,12 +55,15 @@ HEADERS += \
     changeroleinorganization.h \
     changeroleinteam.h \
     create_organization.h \
+    createproject.h \
     createteampage.h \
     creattask.h \
     deletepeoplefromorganization.h \
     deletepeoplefromteam.h \
+    deleteproject.h \
     deletetask.h \
     edit_organization_page.h \
+    editproject.h \
     edittask.h \
     editteampage.h \
     forgetpassword_page.h \
@@ -61,14 +71,17 @@ HEADERS += \
     mainwindow.h \
     project_page.h \
     register_login_page.h \
+    removememberfromproject.h \
     sign_up.h \
     task_page.h \
     team_page.h \
+    viewmemberproject.h \
     vieworganization.h \
     viewteams.h
 
 FORMS += \
     Organization_Page.ui \
+    addmembertoproject.ui \
     addpeopleorganization.ui \
     addpeopletoteam.ui \
     assignatasktoaperson.ui \
@@ -77,12 +90,15 @@ FORMS += \
     changeroleinorganization.ui \
     changeroleinteam.ui \
     create_organization.ui \
+    createproject.ui \
     createteampage.ui \
     creattask.ui \
     deletepeoplefromorganization.ui \
     deletepeoplefromteam.ui \
+    deleteproject.ui \
     deletetask.ui \
     edit_organization_page.ui \
+    editproject.ui \
     edittask.ui \
     editteampage.ui \
     forgetpassword_page.ui \
@@ -90,9 +106,11 @@ FORMS += \
     mainwindow.ui \
     project_page.ui \
     register_login_page.ui \
+    removememberfromproject.ui \
     sign_up.ui \
     task_page.ui \
     team_page.ui \
+    viewmemberproject.ui \
     vieworganization.ui \
     viewteams.ui
 

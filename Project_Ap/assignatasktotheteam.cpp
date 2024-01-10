@@ -12,3 +12,9 @@ AssignATaskToTheTeam::~AssignATaskToTheTeam()
 {
     delete ui;
 }
+
+void AssignATaskToTheTeam::on_pushButton_2_clicked()
+{
+    this->close();
+}
+
