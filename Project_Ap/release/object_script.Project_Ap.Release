@@ -28,6 +28,7 @@ release/project_page.o
 release/register_login_page.o
 release/removememberfromproject.o
 release/sign_up.o
+release/task_class.o
 release/task_page.o
 release/team_page.o
 release/viewmemberproject.o

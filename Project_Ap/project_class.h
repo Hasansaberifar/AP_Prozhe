@@ -4,14 +4,14 @@
 class Project_Class
 {
 private:
-     QString name,title,status;
+     QString name_project,title_project,status_project;
 public:
     Project_Class();
 
     Project_Class (QString name,QString title,QString status);
-    QString get_name();
-    QString get_title();
-    QString get_status();
+    QString get_nameproject();
+    QString get_titleproject();
+    QString get_statusproject();
 
 };
 

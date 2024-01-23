@@ -2,10 +2,10 @@
 
 Project_Class::Project_Class() {}
 Project_Class ::Project_Class(QString name,QString title,QString status){
-    this->name=name;
-    this->title=title;
-    this->status=status;
+    this->name_project=name;
+    this->title_project=title;
+    this->status_project=status;
 }
-QString Project_Class:: get_name(){  return name; }
-QString  Project_Class::get_title(){ return title; }
-QString  Project_Class::get_status(){ return status;}
+QString Project_Class:: get_nameproject(){  return name_project; }
+QString  Project_Class::get_titleproject(){ return title_project; }
+QString  Project_Class::get_statusproject(){ return status_project;}

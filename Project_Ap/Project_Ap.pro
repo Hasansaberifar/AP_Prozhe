@@ -39,6 +39,7 @@ SOURCES += \
     register_login_page.cpp \
     removememberfromproject.cpp \
     sign_up.cpp \
+    task_class.cpp \
     task_page.cpp \
     team_page.cpp \
     viewmemberproject.cpp \
@@ -75,6 +76,7 @@ HEADERS += \
     register_login_page.h \
     removememberfromproject.h \
     sign_up.h \
+    task_class.h \
     task_page.h \
     team_page.h \
     viewmemberproject.h \

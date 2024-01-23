@@ -28,6 +28,7 @@ debug/project_page.o
 debug/register_login_page.o
 debug/removememberfromproject.o
 debug/sign_up.o
+debug/task_class.o
 debug/task_page.o
 debug/team_page.o
 debug/viewmemberproject.o
