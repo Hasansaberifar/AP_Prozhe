@@ -23,6 +23,7 @@ release/forgetpassword_page.o
 release/login_page.o
 release/main.o
 release/mainwindow.o
+release/project_class.o
 release/project_page.o
 release/register_login_page.o
 release/removememberfromproject.o

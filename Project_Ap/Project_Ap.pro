@@ -34,6 +34,7 @@ SOURCES += \
     login_page.cpp \
     main.cpp \
     mainwindow.cpp \
+    project_class.cpp \
     project_page.cpp \
     register_login_page.cpp \
     removememberfromproject.cpp \
@@ -69,6 +70,7 @@ HEADERS += \
     forgetpassword_page.h \
     login_page.h \
     mainwindow.h \
+    project_class.h \
     project_page.h \
     register_login_page.h \
     removememberfromproject.h \

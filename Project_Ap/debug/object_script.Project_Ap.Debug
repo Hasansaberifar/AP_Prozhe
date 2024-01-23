@@ -23,6 +23,7 @@ debug/forgetpassword_page.o
 debug/login_page.o
 debug/main.o
 debug/mainwindow.o
+debug/project_class.o
 debug/project_page.o
 debug/register_login_page.o
 debug/removememberfromproject.o
