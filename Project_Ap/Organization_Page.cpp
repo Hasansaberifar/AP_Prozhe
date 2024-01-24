@@ -81,6 +81,7 @@ void Organization_Page::on_pushButton_9_clicked()
 void Organization_Page::on_pushButton_12_clicked()
 {
     Project_Page *page=new Project_Page(this);
+    this->hide();
     page->show();
 
 }

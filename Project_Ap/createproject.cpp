@@ -44,7 +44,7 @@ void CreateProject::on_pushButton_2_clicked()
         QMessageBox::information(nullptr, "عنوان", "The Project was created successfully !");
 
     }
-
+    this->hide();
 
 }
 

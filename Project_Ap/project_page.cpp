@@ -6,6 +6,7 @@
 #include"editproject.h"
 #include"deleteproject.h"
 #include"viewmemberproject.h"
+#include "Organization_Page.h"
 
 Project_Page::Project_Page(QWidget *parent)
     : QDialog(parent)
@@ -22,6 +23,8 @@ Project_Page::~Project_Page()
 void Project_Page::on_pushButton_10_clicked()
 {
     this->close();
+    Organization_Page* page = new Organization_Page();
+    page->show();
 }
 
 
