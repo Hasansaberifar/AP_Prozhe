@@ -6,6 +6,7 @@
 #include"editproject.h"
 #include"deleteproject.h"
 #include"viewmemberproject.h"
+
 Project_Page::Project_Page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Project_Page)

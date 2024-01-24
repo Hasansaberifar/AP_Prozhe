@@ -8,6 +8,7 @@
 #include "changeroleinorganization.h"
 #include"vieworganization.h"
 #include"project_page.h"
+
 Organization_Page::Organization_Page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Organization_Page)
