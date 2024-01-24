@@ -29,8 +29,8 @@ public:
     QFormLayout *formLayout;
     QLabel *label_2;
     QLabel *label_3;
-    QLineEdit *TitleProject;
     QLineEdit *ProjectName;
+    QLineEdit *TitleProject;
     QPushButton *pushButton_2;
 
     void setupUi(QDialog *CreateProject)
@@ -58,26 +58,26 @@ public:
         label_2 = new QLabel(formLayoutWidget);
         label_2->setObjectName("label_2");
 
-        formLayout->setWidget(0, QFormLayout::LabelRole, label_2);
+        formLayout->setWidget(1, QFormLayout::LabelRole, label_2);
 
         label_3 = new QLabel(formLayoutWidget);
         label_3->setObjectName("label_3");
 
-        formLayout->setWidget(1, QFormLayout::LabelRole, label_3);
-
-        TitleProject = new QLineEdit(formLayoutWidget);
-        TitleProject->setObjectName("TitleProject");
-
-        formLayout->setWidget(0, QFormLayout::FieldRole, TitleProject);
+        formLayout->setWidget(0, QFormLayout::LabelRole, label_3);
 
         ProjectName = new QLineEdit(formLayoutWidget);
         ProjectName->setObjectName("ProjectName");
 
-        formLayout->setWidget(1, QFormLayout::FieldRole, ProjectName);
+        formLayout->setWidget(0, QFormLayout::FieldRole, ProjectName);
+
+        TitleProject = new QLineEdit(formLayoutWidget);
+        TitleProject->setObjectName("TitleProject");
+
+        formLayout->setWidget(1, QFormLayout::FieldRole, TitleProject);
 
         pushButton_2 = new QPushButton(CreateProject);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(500, 160, 83, 29));
+        pushButton_2->setGeometry(QRect(500, 170, 83, 29));
 
         retranslateUi(CreateProject);
 
