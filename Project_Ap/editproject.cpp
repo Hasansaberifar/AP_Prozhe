@@ -23,29 +23,46 @@ void EditProject::on_pushButton_2_clicked()
 
 void EditProject::on_pushButton_clicked()
 {
-    QString namefile=ui->OldNameForProject->text()+".txt";
-    QString name=ui->NewNameForProject->text();
-    QString title=ui->newTitleForProject->text();
-    QFile file(namefile);
-    if (file.exists()){
-        file.remove();
-        file.close();
+    QString namefile = ui->OldNameForProject->text() + ".txt";
+    QString name = ui->NewNameForProject->text();
+    QString title = ui->newTitleForProject->text();
 
-        QFile file(name+".txt");
-        if(file.exists()){
-            QMessageBox::critical(nullptr, "Title : Edit file", "name is Exists !");
-        }
-      else  if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+    // تغییر نام فایل
+    QString newFilename = name + ".txt";
+    QFile::rename(namefile, newFilename);
+
+    QFile file(newFilename);
+    if (file.exists()) {
+        if (file.open(QIODevice::ReadWrite | QIODevice::Text)) {
             QTextStream stream(&file);
-            stream << name << "\n"<< title << "\n";
+            QStringList lines;
+            while (!stream.atEnd()) {
+                QString line = stream.readLine();
+                lines.append(line);
+            }
             file.close();
-             QMessageBox::information(nullptr, "Title : Edit Project", "The Project was Edited successfully !");
-    }
 
-    }
-    else
-    QMessageBox::critical(nullptr, "Title : Edit file", "name is Not Exists !");
+            if (lines.size() >= 2) {
+                lines.removeFirst();
+                lines.removeFirst();
 
-    this->hide();
-}
+                lines.prepend(name);
+                lines.prepend(title);
+
+                if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+                    QTextStream writeStream(&file);
+                    foreach (const QString& line, lines) {
+                        writeStream << line << "\n";
+                    }
+                    file.close();
+                }
+            }
+            QMessageBox::information(nullptr, "Title: Edit Project", "The Project was edited successfully!");
+            this->hide();
+        } else {
+            QMessageBox::critical(nullptr, "Title: Edit Project", "Failed to open the file for reading and writing.");
+        }
+    } else {
+        QMessageBox::critical(nullptr, "Title: Edit Project", "This name does not exist!");
+    }}
 

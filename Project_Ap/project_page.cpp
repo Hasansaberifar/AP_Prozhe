@@ -7,12 +7,15 @@
 #include"deleteproject.h"
 #include"viewmemberproject.h"
 #include "Organization_Page.h"
-
+#include<QFile>
+#include<QTextStream>
 Project_Page::Project_Page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Project_Page)
 {
     ui->setupUi(this);
+    setWindowTitle("Project page");
+
 }
 
 Project_Page::~Project_Page()
@@ -67,5 +70,38 @@ void Project_Page::on_pushButton_7_clicked()
 {
     ViewMemberProject *page=new ViewMemberProject(this);
     page->show();
+}
+
+
+void Project_Page::on_pushButton_9_clicked()
+{
+    QFile file("Allprojects.txt");
+
+    QStringList lines;
+
+
+    QTextStream in(&file);
+    while (!in.atEnd()) {
+        lines.append(in.readLine());
+    }
+
+
+    std::sort(lines.begin(), lines.end());
+
+
+    file.close();
+
+
+    file.seek(0);
+
+
+    QTextStream out(&file);
+    for (QString line : lines) {
+        out << line << "\n";
+    }
+
+
+    file.close();
+
 }
 

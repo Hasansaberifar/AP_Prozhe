@@ -166,6 +166,9 @@ public:
     void retranslateUi(QDialog *Project_Page)
     {
         Project_Page->setWindowTitle(QCoreApplication::translate("Project_Page", "Dialog", nullptr));
+#if QT_CONFIG(tooltip)
+        Project_Page->setToolTip(QCoreApplication::translate("Project_Page", "<html><head/><body><p><br/></p></body></html>", nullptr));
+#endif // QT_CONFIG(tooltip)
         label->setText(QCoreApplication::translate("Project_Page", "Project Page", nullptr));
         label_2->setText(QCoreApplication::translate("Project_Page", "Create a New Project : ", nullptr));
         label_3->setText(QCoreApplication::translate("Project_Page", "Add member : ", nullptr));

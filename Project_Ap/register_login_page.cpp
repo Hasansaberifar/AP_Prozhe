@@ -7,6 +7,8 @@ Register_Login_Page::Register_Login_Page(QWidget *parent)
     , ui(new Ui::Register_Login_Page)
 {
     ui->setupUi(this);
+
+
 }
 
 Register_Login_Page::~Register_Login_Page()

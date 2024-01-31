@@ -10,6 +10,7 @@ Task_Page::Task_Page(QWidget *parent)
     , ui(new Ui::Task_Page)
 {
     ui->setupUi(this);
+    setWindowTitle("Task page");
 }
 
 Task_Page::~Task_Page()
