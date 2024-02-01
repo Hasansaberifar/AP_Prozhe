@@ -5,6 +5,7 @@
 #include"deletetask.h"
 #include"assignatasktoaproject.h"
 #include"assignatasktotheteam.h"
+#include"setdate.h"
 Task_Page::Task_Page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Task_Page)
@@ -56,5 +57,12 @@ void Task_Page::on_pushButton_8_clicked()
 {
     AssignATaskToTheTeam *page=new AssignATaskToTheTeam(this);
     page->show();
+}
+
+
+void Task_Page::on_pushButton_10_clicked()
+{
+    SetDate *a=new SetDate(this);
+    a->show();
 }
 

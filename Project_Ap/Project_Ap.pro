@@ -38,6 +38,7 @@ SOURCES += \
     project_page.cpp \
     register_login_page.cpp \
     removememberfromproject.cpp \
+    setdate.cpp \
     sign_up.cpp \
     task_class.cpp \
     task_page.cpp \
@@ -75,6 +76,7 @@ HEADERS += \
     project_page.h \
     register_login_page.h \
     removememberfromproject.h \
+    setdate.h \
     sign_up.h \
     task_class.h \
     task_page.h \
@@ -111,6 +113,7 @@ FORMS += \
     project_page.ui \
     register_login_page.ui \
     removememberfromproject.ui \
+    setdate.ui \
     sign_up.ui \
     task_page.ui \
     team_page.ui \

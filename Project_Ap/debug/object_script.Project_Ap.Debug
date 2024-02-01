@@ -27,6 +27,7 @@ debug/project_class.o
 debug/project_page.o
 debug/register_login_page.o
 debug/removememberfromproject.o
+debug/setdate.o
 debug/sign_up.o
 debug/task_class.o
 debug/task_page.o
@@ -61,6 +62,7 @@ debug/moc_mainwindow.o
 debug/moc_project_page.o
 debug/moc_register_login_page.o
 debug/moc_removememberfromproject.o
+debug/moc_setdate.o
 debug/moc_sign_up.o
 debug/moc_task_page.o
 debug/moc_team_page.o

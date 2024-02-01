@@ -27,6 +27,7 @@ release/project_class.o
 release/project_page.o
 release/register_login_page.o
 release/removememberfromproject.o
+release/setdate.o
 release/sign_up.o
 release/task_class.o
 release/task_page.o
@@ -61,6 +62,7 @@ release/moc_mainwindow.o
 release/moc_project_page.o
 release/moc_register_login_page.o
 release/moc_removememberfromproject.o
+release/moc_setdate.o
 release/moc_sign_up.o
 release/moc_task_page.o
 release/moc_team_page.o
