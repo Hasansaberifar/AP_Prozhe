@@ -7,6 +7,7 @@ debug/assignatasktoaproject.o
 debug/assignatasktotheteam.o
 debug/changeroleinorganization.o
 debug/changeroleinteam.o
+debug/changestatus.o
 debug/create_organization.o
 debug/createproject.o
 debug/createteampage.o
@@ -44,6 +45,7 @@ debug/moc_assignatasktoaproject.o
 debug/moc_assignatasktotheteam.o
 debug/moc_changeroleinorganization.o
 debug/moc_changeroleinteam.o
+debug/moc_changestatus.o
 debug/moc_create_organization.o
 debug/moc_createproject.o
 debug/moc_createteampage.o

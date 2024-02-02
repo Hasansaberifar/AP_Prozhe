@@ -90,7 +90,7 @@ public:
         label_2->setText(QCoreApplication::translate("AssignATaskToAProject", "Project Name : ", nullptr));
         label_3->setText(QCoreApplication::translate("AssignATaskToAProject", "Task Name : ", nullptr));
         label->setText(QCoreApplication::translate("AssignATaskToAProject", "Assign A Task To A Project ", nullptr));
-        pushButton->setText(QCoreApplication::translate("AssignATaskToAProject", "Yes", nullptr));
+        pushButton->setText(QCoreApplication::translate("AssignATaskToAProject", "press", nullptr));
         pushButton_2->setText(QCoreApplication::translate("AssignATaskToAProject", "Back", nullptr));
     } // retranslateUi
 

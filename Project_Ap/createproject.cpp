@@ -36,7 +36,7 @@ void CreateProject::on_pushButton_2_clicked()
         return ;
     }
     QTextStream out(&file1);
-    out<<name<<"\n";
+    out<<name<<"  Active"<<"\n";
     file1.close();
 
     if (file.exists()){

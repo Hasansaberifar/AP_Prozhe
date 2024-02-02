@@ -18,6 +18,7 @@ SOURCES += \
     assignatasktotheteam.cpp \
     changeroleinorganization.cpp \
     changeroleinteam.cpp \
+    changestatus.cpp \
     create_organization.cpp \
     createproject.cpp \
     createteampage.cpp \
@@ -57,6 +58,7 @@ HEADERS += \
     assignatasktotheteam.h \
     changeroleinorganization.h \
     changeroleinteam.h \
+    changestatus.h \
     create_organization.h \
     createproject.h \
     createteampage.h \
@@ -95,6 +97,7 @@ FORMS += \
     assignatasktotheteam.ui \
     changeroleinorganization.ui \
     changeroleinteam.ui \
+    changestatus.ui \
     create_organization.ui \
     createproject.ui \
     createteampage.ui \

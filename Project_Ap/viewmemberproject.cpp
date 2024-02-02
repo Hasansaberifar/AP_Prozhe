@@ -23,8 +23,8 @@ void ViewMemberProject::on_pushButton_clicked()
 
 void ViewMemberProject::on_pushButton_2_clicked()
 {
-    QString nameproject = ui->Projectname->text();
-    QFile file(nameproject + ".txt");
+  //  QString nameproject = ui->Projectname->text();
+    QFile file("Allprojects.txt");
     QStringList lines;
 
     if (!file.open(QIODevice::ReadOnly)) {
@@ -38,8 +38,8 @@ void ViewMemberProject::on_pushButton_2_clicked()
     }
 
     file.close();
-    lines.removeAt(0);
-    lines.removeAt(0);
+   // lines.removeAt(0);
+   // lines.removeAt(0);
 
  //   for (int i = 0; i <=lines.size(); i++) {
  //       double a = i % 2;
@@ -48,9 +48,10 @@ void ViewMemberProject::on_pushButton_2_clicked()
   //      }
   //  }
 
-    for (int i = 0; i < lines.size(); i+=2) {
+    for (int i = 0; i < lines.size(); i++) {
         ui->listWidgetProject->addItem(lines[i]);
     }
+
 
 }
 

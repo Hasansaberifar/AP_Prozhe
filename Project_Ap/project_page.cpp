@@ -9,6 +9,8 @@
 #include "Organization_Page.h"
 #include<QFile>
 #include<QTextStream>
+#include<QMessageBox>
+#include"changestatus.h"
 Project_Page::Project_Page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Project_Page)
@@ -70,38 +72,44 @@ void Project_Page::on_pushButton_7_clicked()
 {
     ViewMemberProject *page=new ViewMemberProject(this);
     page->show();
+
+
+
 }
 
 
 void Project_Page::on_pushButton_9_clicked()
 {
-    QFile file("Allprojects.txt");
+     QFile file("Allprojects.txt");
+    if (!file.open(QIODevice::ReadWrite | QIODevice::Text)) {  // Open in ReadWrite mode
+        qDebug() << "Error opening file";
+        return;
+    }
 
     QStringList lines;
-
-
     QTextStream in(&file);
     while (!in.atEnd()) {
         lines.append(in.readLine());
     }
 
-
     std::sort(lines.begin(), lines.end());
 
-
-    file.close();
-
-
-    file.seek(0);
-
-
+    file.resize(0);
     QTextStream out(&file);
-    for (QString line : lines) {
+    for (const QString& line : lines) {  // Use const reference for efficiency
         out << line << "\n";
     }
 
-
+    QMessageBox::information(nullptr, "Title: sort", "Sort was successful!");
     file.close();
 
+
+}
+
+
+void Project_Page::on_pushButton_6_clicked()
+{
+    Changestatus *a=new Changestatus(this);
+    a->show();
 }
 

@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>130</x>
-     <y>130</y>
+     <y>80</y>
      <width>311</width>
      <height>241</height>
     </rect>
@@ -26,8 +26,8 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>20</y>
+     <x>130</x>
+     <y>30</y>
      <width>371</width>
      <height>51</height>
     </rect>
@@ -40,14 +40,14 @@
     </font>
    </property>
    <property name="text">
-    <string>All Members Project</string>
+    <string>All Project</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>380</y>
+     <x>260</x>
+     <y>330</y>
      <width>83</width>
      <height>29</height>
     </rect>
@@ -56,33 +56,11 @@
     <string>Close</string>
    </property>
   </widget>
-  <widget class="QWidget" name="formLayoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>130</x>
-     <y>80</y>
-     <width>311</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <layout class="QFormLayout" name="formLayout">
-    <item row="0" column="0">
-     <widget class="QLabel" name="label_2">
-      <property name="text">
-       <string>Name Project :</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1">
-     <widget class="QLineEdit" name="Projectname"/>
-    </item>
-   </layout>
-  </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>360</x>
-     <y>380</y>
+     <x>350</x>
+     <y>330</y>
      <width>83</width>
      <height>29</height>
     </rect>

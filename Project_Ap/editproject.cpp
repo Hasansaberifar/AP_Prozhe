@@ -27,7 +27,32 @@ void EditProject::on_pushButton_clicked()
     QString name = ui->NewNameForProject->text();
     QString title = ui->newTitleForProject->text();
 
-    // تغییر نام فایل
+    QFile file1("Allprojects.txt");
+    if (!file1.open(QIODevice::ReadWrite)) {
+        qDebug() << "Error opening file";
+        return ;
+    }
+
+    QStringList lines;
+    QTextStream in(&file1);
+    while (!in.atEnd()) {
+        lines.append(in.readLine());
+    }
+
+    for (int i = 0; i < lines.size(); ++i) {
+        if (lines[i].contains(namefile+"  Active")) {
+            lines[i] = name+"  Active";
+        }
+        else if(lines[i].contains(namefile+"  UnActive"))
+            lines[i]=name+"  UnActive";
+    }
+
+    file1.seek(0);
+    QTextStream out(&file1);
+    for (QString line : lines) {
+        out << line << "\n";
+    }
+    file1.close();
     QString newFilename = name + ".txt";
     QFile::rename(namefile, newFilename);
 

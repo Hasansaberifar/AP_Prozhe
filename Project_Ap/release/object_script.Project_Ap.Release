@@ -7,6 +7,7 @@ release/assignatasktoaproject.o
 release/assignatasktotheteam.o
 release/changeroleinorganization.o
 release/changeroleinteam.o
+release/changestatus.o
 release/create_organization.o
 release/createproject.o
 release/createteampage.o
@@ -44,6 +45,7 @@ release/moc_assignatasktoaproject.o
 release/moc_assignatasktotheteam.o
 release/moc_changeroleinorganization.o
 release/moc_changeroleinteam.o
+release/moc_changestatus.o
 release/moc_create_organization.o
 release/moc_createproject.o
 release/moc_createteampage.o
