@@ -51,6 +51,7 @@ void AssignATaskToAProject::on_pushButton_clicked()
     for (const QString& line : lines) {
         out << line << "\n";
     }
+    QMessageBox::information(nullptr,"Title : assign","assign was succesful!");
     }
     file.close();
 

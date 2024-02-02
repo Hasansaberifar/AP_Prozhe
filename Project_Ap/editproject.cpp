@@ -23,7 +23,8 @@ void EditProject::on_pushButton_2_clicked()
 
 void EditProject::on_pushButton_clicked()
 {
-    QString namefile = ui->OldNameForProject->text() + ".txt";
+    QString namefile1 = ui->OldNameForProject->text() ;
+    QString namefile=namefile1+".txt";
     QString name = ui->NewNameForProject->text();
     QString title = ui->newTitleForProject->text();
 
@@ -40,18 +41,19 @@ void EditProject::on_pushButton_clicked()
     }
 
     for (int i = 0; i < lines.size(); ++i) {
-        if (lines[i].contains(namefile+"  Active")) {
-            lines[i] = name+"  Active";
-        }
-        else if(lines[i].contains(namefile+"  UnActive"))
+        if (lines[i].endsWith(namefile1 + "  Active")) {
+            lines[i]=name+"  Active";
+        } else if (lines[i].endsWith(namefile1 + "  UnActive")) {
             lines[i]=name+"  UnActive";
+        }
     }
 
-    file1.seek(0);
+    file1.resize(0);
     QTextStream out(&file1);
-    for (QString line : lines) {
+    for (const QString& line : lines) {
         out << line << "\n";
     }
+
     file1.close();
     QString newFilename = name + ".txt";
     QFile::rename(namefile, newFilename);
@@ -89,5 +91,5 @@ void EditProject::on_pushButton_clicked()
         }
     } else {
         QMessageBox::critical(nullptr, "Title: Edit Project", "This name does not exist!");
-    }}
-
+    }
+}

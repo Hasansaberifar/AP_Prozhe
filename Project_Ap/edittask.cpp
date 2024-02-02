@@ -23,10 +23,34 @@ void EditTask::on_pushButton_2_clicked()
 
 void EditTask::on_pushButton_clicked()
 {
-    QString namefile = ui->OdlNameForTask->text() + ".txt";
+    QString namefile1 = ui->OdlNameForTask->text() ;
+    QString namefile=namefile+".txt";
     QString name = ui->NewNameForTask->text();
     QString title = ui->NewTitleForTask->text();
 
+    QFile file1("Alltasks.txt");
+    if (!file1.open(QIODevice::ReadWrite)) {
+        qDebug() << "Error opening file";
+        return ;
+    }
+
+    QStringList lines;
+    QTextStream in(&file1);
+    while (!in.atEnd()) {
+        lines.append(in.readLine());
+    }
+
+    for (int i = 0; i < lines.size(); ++i) {
+        if (lines[i].contains(namefile1)) {
+            lines[i].replace(namefile,name);
+        }
+    }
+
+    file1.resize(0);
+    QTextStream out(&file1);
+    for (const QString& line : lines) {
+        out << line << "\n";
+    }
 
     QString newFilename = name + ".txt";
     QFile::rename(namefile, newFilename);
