@@ -46,19 +46,6 @@
     <string>Back</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
-   <property name="geometry">
-    <rect>
-     <x>540</x>
-     <y>400</y>
-     <width>101</width>
-     <height>29</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Sign up</string>
-   </property>
-  </widget>
   <widget class="QWidget" name="formLayoutWidget">
    <property name="geometry">
     <rect>
@@ -156,6 +143,19 @@
      <widget class="QLineEdit" name="Email"/>
     </item>
    </layout>
+  </widget>
+  <widget class="QPushButton" name="signBTN">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>420</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>sign_up</string>
+   </property>
   </widget>
  </widget>
  <resources/>

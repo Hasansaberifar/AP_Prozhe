@@ -2,6 +2,13 @@
 #define SIGN_UP_H
 
 #include <QDialog>
+#include <QCoreApplication>
+#include <QJsonDocument>
+#include <QJsonArray>
+#include <QJsonObject>
+#include <QFile>
+#include <QDebug>
+#include <QMessageBox>
 
 namespace Ui {
 class Sign_up;
@@ -17,6 +24,8 @@ public:
 
 private slots:
     void on_pushButton_clicked();
+
+    void on_signBTN_clicked();
 
 private:
     Ui::Sign_up *ui;

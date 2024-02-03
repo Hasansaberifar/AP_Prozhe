@@ -2,6 +2,7 @@
 #include "ui_register_login_page.h"
 #include"sign_up.h"
 #include"login_page.h"
+#include "mainwindow.h"
 Register_Login_Page::Register_Login_Page(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Register_Login_Page)

@@ -2,6 +2,13 @@
 #define FORGETPASSWORD_PAGE_H
 
 #include <QDialog>
+#include <QFile>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QJsonArray>
+#include <QMessageBox>
+#include <QString>
+#include <QStringList>
 
 namespace Ui {
 class ForgetPassword_page;
@@ -18,7 +25,7 @@ public:
 private slots:
     void on_pushButton_2_clicked();
 
-    void on_pushButton_clicked();
+    void on_SubmtBTN_clicked();
 
 private:
     Ui::ForgetPassword_page *ui;
